@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Avendaño - Cursosvirtuales </title>
+  <meta name="title" content="Cursosvirtuales - venta de cursos online">
+  <meta name="description" content="este es una pagina para la venta de cursos">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./logoAV.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/comida.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- 
+    - preload images
+  -->
+ 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TZKHV9HZNF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TZKHV9HZNF');
+</script>
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="header-top">
+      <div class="container">
+
+        <a href="index.html" class="logo01">
+          <img src="./assets/images/logoAvendaño.png" width="138" height="28" alt="booken home">
+        </a>
+
+
+
+        <div class="header-action">
+
+
+
+          <button class="nav-open-btn" aria-label="open menu" title="Open Menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-navbar>
+      <div class="container">
+
+        <nav class="navbar">
+
+          <button class="nav-close-btn" data-nav-toggler aria-label="clsoe menu" title="Clsoe Menu">
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="index.html" class="navbar-link" style="color: black; text-decoration: none; font-size: 16px;">Inicio</a>
+            </li>
+
+            <li>
+              <a href="index.html" class="navbar-link" style="color: black; text-decoration: none; font-size: 16px;">Packs</a>
+            </li>
+
+            <li>
+              <a href="cursos.html" class="navbar-link" style="color: black; text-decoration: none; font-size: 16px;">Cursos</a>
+            </li>
+
+            <li>
+              <a href="index.html" class="navbar-link" style="color: black; text-decoration: none; font-size: 16px;"> Mas comprados</a>
+            </li>
+
+            <li>
+              <a href="index.html" class="navbar-link" style="color: black; text-decoration: none; font-size: 16px;">Contactanos</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logoAvendaño.png" width="180" height="28" alt="booken home">
+        </a>
+
+      </div>
+    </div>
+
+    <div class="overlay" data-overlay data-nav-toggler></div>
+  </header>
+
+
+  <section class="section featured" aria-label="featured collection" style="background-color: #E0EBEB;" >
+    <div class="container" >
+
+      <h2 class="h2 section-title">Cursos Populares</h2>
+
+      <p class="section-text">
+        Cursos populares en tendencia para impulsar tu carrera.
+      </p>
+
+      <ul class="filter-list">
+
+
+        <li>
+          <button class="filter-btn active" id="food-menu" data-filter-btn="featured">Todo</button>
+        </li>
+
+        <li>
+          <button class="filter-btn" data-filter-btn="new">Diseño</button>
+        </li>
+
+        <li>
+          <button class="filter-btn">Packs</button>
+        </li>
+
+        <li>
+          <button class="filter-btn">Productos</button>
+        </li>
+
+      </ul>
+
+
+      <ul class="grid-list food-container " >
+
+
+
+
+
+
+
+      </ul>
+
+
+    </div>
+  </section>
+
+  <a href="https://wa.me/51930134408?text=Me%20gustaría%mas%20el%informacion" class="whatsapp " target="_blank"
+    aria-label="back to top" data-back-top-btn><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+    <script src="assets/js/cursos.js">
+    </script>
+    
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+
+
+
+
+
+<!-- 
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

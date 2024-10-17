@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Avendaño - Cursosvirtuales </title>
+  <meta name="title" content="Cursosvirtuales - venta de cursos online">
+  <meta name="description" content="este es una pagina para la venta de cursos">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./logoAV.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TZKHV9HZNF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TZKHV9HZNF');
+</script>
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="header-top">
+      <div class="container">
+
+        <a href="#" class="logo01">
+          <img src="./assets/images/logoAvendaño.png" width="138" height="28" alt="booken home">
+        </a>
+
+
+
+        <div class="header-action">
+
+
+
+          <button class="nav-open-btn" aria-label="open menu" title="Open Menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-navbar>
+      <div class="container">
+
+        <nav class="navbar">
+
+          <button class="nav-close-btn" data-nav-toggler aria-label="clsoe menu" title="Clsoe Menu">
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#Home" class="navbar-link">Inicio</a>
+            </li>
+
+            <li>
+              <a href="#Pack" class="navbar-link">Packs</a>
+            </li>
+
+            <li>
+              <a href="cursos.html" class="navbar-link">Cursos</a>
+            </li>
+
+            <li>
+              <a href="#Comprados" class="navbar-link">Mas comprados</a>
+            </li>
+
+            <li>
+              <a href="#Oferta" class="navbar-link">Ofertas</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logoAvendaño.png" width="180" height="28" alt="booken home">
+        </a>
+
+      </div>
+    </div>
+
+    <div class="overlay" data-overlay data-nav-toggler></div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home" id="Home"
+        style="background-image: url('./assets/images/hero.webp')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title has-after">
+              Expande Tus<br>
+              Conocimientos
+            </h1>
+
+            <p class="hero-text">
+              Nuestros cursos pregrabados de bootcamps te brindan la oportunidad de aprender a tu propio ritmo y desde
+              la comodidad de tu hogar. Contamos con una amplia variedad de temas y niveles para satisfacer todas tus
+              necesidades.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="cursos.html" class="btn" style="color: white; border: 1px solid white;">
+                <span class="span">Ver Cursos</span>
+
+                <ion-icon name="cart" aria-hidden="true"></ion-icon>
+              </a>
+
+              <button class="play-btn" aria-label="play video">
+                <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/heroobjeto.webp" width="475" height="600" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature">
+        <div class="container">
+
+          <div class="grid-list">
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-2.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Pago Seguro</h3>
+
+                  <p class="card-text">Realiza tu pago de forma segura y confiable.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-3.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Mejor Precio</h3>
+
+                  <p class="card-text">Accede a cursos de calidad a precios inmejorables.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-4.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Aprendizaje Flexible</h3>
+
+                  <p class="card-text">Aprende a tu ritmo, en cualquier momento y lugar.</p>
+                </div>
+
+              </div>
+            </li>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #FEATURED COLLECTION
+      -->
+
+      <section class="section featured" aria-label="featured collection" style="background-color: #E0EBEB;" id="Pack">
+        <div class="container">
+
+          <h2 class="h2 section-title">Packs de Cursos</h2>
+
+          <p class="section-text">
+            Combina cursos afines en packs a precio especial. Formación profunda en un tema.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 550;">
+                  <img src="images/MEGAPACKDISEÑO.webp" width="384" height="480" loading="lazy" alt="Stay Healthy"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <a href="pagar.html" class="action-btn" aria-label="Comprar" title="Comprar" >
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                 
+
+                  <a href="https://drive.google.com/drive/u/3/folders/1Ox0YQXIfFybuEk9rjhUyJF_3N4wm62bI" target="_blank" class="action-btn" aria-label="imagenes" title="imagenes">
+              <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <a >
+                    <h1 class="card-title"">MEGA PACK Diseño Grafico</h1>
+                  </a>
+                  <data class="card-price" value="50">S/50</data>
+                  <p class="des">MEGA PACK Diseño Grafico, llevate 6 cursos completos de diseño: FIGMA, ILLUSTRATOR, PHOTSHOP,Adobe Premiere, CANVA, Corel Draw +500GB de archivos editables ,+51 libros de diseño </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 550;">
+                  <img src="images/packeditable.webp" width="384" height="480" loading="lazy" alt="Stay Healthy"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <a href="pagar.html" class="action-btn" aria-label="Comprar" title="Comprar" >
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <a >
+                    <h1 class="card-title"">MEGA PACK Arhivos Editables</h1>
+                  </a>
+                  <data class="card-price" value="50">S/10</data>
+                  <p class="des">MEGA PACK Diseño Grafico, llevate 6 cursos completos de diseño: FIGMA, ILLUSTRATOR, PHOTSHOP,Adobe Premiere, CANVA, Corel Draw +500GB de archivos editables ,+51 libros de diseño </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 550;">
+                  <img src="images/IA.webp" width="384" height="480" loading="lazy" alt="Stay Healthy"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <a href="pagar.html" class="action-btn" aria-label="Comprar" title="Comprar" >
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                  <a href="https://drive.google.com/file/d/1mgE6Z4bbR5Em_vnAtyVumnsuKqYpt2v1/view?usp=sharing" target="_blank" class="action-btn" aria-label="ver video" title="ver video">
+                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                 
+
+                  <a href="https://drive.google.com/drive/folders/1yLjQp61_mewwJolcSEy0wk4QBE77eCJm?usp=drive_link" target="_blank" class="action-btn" aria-label="imagenes" title="imagenes">
+              <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <a >
+                    <h1 class="card-title"">MEGA PACK De IA</h1>
+                  </a>
+                  <data class="card-price" value="50">S/40</data>
+                  <p class="des">MEGA PACK de Inteligencia Artificial el pack contiene 7 cursos de diferente rubros para el trabajo y asi facilitar el trabajo de las personas gracias a la IA cada curso esta bien hecho + herramientas  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+  
+      <!-- 
+        - #OFFER
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home" id="Oferta"
+      style="background-image: url('./assets/images/hero-bg.jpg');  padding-block-start:114px;">
+      <div class="container">
+
+        <div class="hero-content">
+
+          <h1 class="h1 has-after" style="color: #66C5CC;">
+            Super pack<br>
+            Diseño Grafico
+          </h1>
+
+          <ul class="hero-text" style="color: #66C5CC; " >
+            <li>
+              <span class="course-bullet">&#9679; Curso Canva</span>
+              <span class="course-bullet">&#9679; +500 GB de archivos</span>
+              <span class="course-bullet">&#9679; +51 libros de diseño </span>
+              <span class="course-bullet">&#9679; Curso ILLUSTRATOR</span>
+              <span class="course-bullet">&#9679; Curso Photoshop</span>
+              <span class="course-bullet">&#9679; Curso Figma</span>
+              <span class="course-bullet">&#9679; Curso Corel draw</span>
+              <span class="course-bullet">&#9679; Curso Adobe Premier</span>
+              <data class="card-price" value="50" style="font-size: 50px;" >S/50</data>
+            </li>
+           
+          </ul>
+
+          <div class="btn-wrapper">
+
+            <a href="pagar.html" class="btn" style="color: white; border: 1px solid white;">
+              <span class="span">Comprar</span>
+
+              
+            </a>
+              <a href="https://drive.google.com/drive/u/3/folders/1Ox0YQXIfFybuEk9rjhUyJF_3N4wm62bI">
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </a>
+          </div>
+
+
+        </div>
+
+        <figure class="hero-banner">
+          <img src="images/MEGAPACKDISEÑO.webp" width="475" height="600" alt="hero banner" class="w-100">
+        </figure>
+
+      </div>
+    </section>
+
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="section popular" aria-label="popular collection" style="background-color: #E0EBEB;"
+        id="Comprados">
+        <div class="container">
+
+          <h2 class="h2 section-title">Cursos Populares</h2>
+
+          <p class="section-text">
+            Cursos populares en tendencia para impulsar tu carrera.
+          </p>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn" data-filter-btn="new">Nuevos cursos</button>
+            </li>     
+
+          </ul>
+
+          <ul class="product-list has-scrollbar">
+         
+            <li class="scrollbar-item" data-filter="sell">
+              <a href="pagar.html">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 550;">
+                  <img src="images/AdobePrimiere.webp" width="384" height="480" loading="lazy" alt="Self Care"
+                    class="img-cover">
+                    <div class="card-action">
+
+                      <a href="pagar.html" class="action-btn" aria-label="Comprar" title="Comprar" >
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </a>
+  
+                    <a href="https://drive.google.com/file/d/19RsEWMqFQZLaVYeZvbG9SIIaTV54moDc/view?usp=sharing" target="_blank" class="action-btn" aria-label="ver video" title="ver video">
+                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </a>
+  
+                    <a href="https://drive.google.com/drive/folders/1vtfuIiq3glGV7zlPdh-W-A4sY9Q_RfYg?usp=sharing" target="_blank" class="action-btn" aria-label="imagenes" title="imagenes">
+                <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+              </a>
+                    </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">ADOBE PREMIERE</a>
+                  </h3>
+
+                  <data class="card-price" value="34">S/10</data>
+
+                </div>
+
+              </div>
+            </a>
+            </li>
+
+            <li class="scrollbar-item" data-filter="new">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 550;">
+                  <img src="images/packeditable.webp" width="384" height="550" loading="lazy" alt="Welcome to Space"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <a href="pagar.html" class="action-btn" aria-label="Comprar" title="Comprar" >
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="" target="_blank" class="action-btn" aria-label="ver video" title="ver video">
+                  <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="" target="_blank" class="action-btn" aria-label="imagenes" title="imagenes">
+              <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Pack archivos editables</a>
+                  </h3>
+
+                  <data class="card-price" value="150">S/10</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="sell">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 550;">
+                  <img src="images/CANVA.webp" width="384" height="480" loading="lazy" alt="Monsoon"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <a href="pagar.html" class="action-btn" aria-label="Comprar" title="Comprar" >
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/18a-e_zT5EgiHhTtu5SWjscsmknC-4w0R/view?usp=sharing" target="_blank" class="action-btn" aria-label="ver video" title="ver video">
+                  <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://drive.google.com/drive/folders/15a7ZGBXJMrNtSJguOhfy5jzaS8pAM9kt?usp=drive_link" target="_blank" class="action-btn" aria-label="imagenes" title="imagenes">
+              <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Canva</a>
+                  </h3>
+
+                  <data class="card-price" value="23">S/10</data>
+
+            
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="new">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 550;">
+                  <img src="images/Fotografia.webp" width="384" height="550" loading="lazy" alt="Welcome to Space"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <a href="pagar.html" class="action-btn" aria-label="Comprar" title="Comprar" >
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/1CShNQ4qpD0fFXlptmPp-ZJB9HEACnXqa/view?usp=sharing" target="_blank" class="action-btn" aria-label="ver video" title="ver video">
+                  <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://drive.google.com/drive/folders/1hQ9iMG5xjUP3b5Tl2v8ycNdgLZWZxd_e?usp=sharing" target="_blank" class="action-btn" aria-label="imagenes" title="imagenes">
+              <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Pack de Fotagrafia</a>
+                  </h3>
+
+                  <data class="card-price" value="150">S/10</data>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+        <div style="display: flex; justify-content: center; margin: 33px 0 0 0; ">
+          <a href="cursos.html" class="btn" style="color: black; border: 1px solid black;">
+            <span class="span">Ver mas Cursos</span>
+          </a>
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-label="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title" style="font-size: 45px; color: white;">Redes Sociales</h2>
+
+          <p class="section-text" style="color: white;">
+            Descubre todo sobre los cursos en nuestro blog y redes sociales
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="images/AdobePrimiere.webp" width="600" height="400" loading="lazy"
+                    alt="Significant reading has info" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Significant reading has info</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="meta-item">
+                      <time class="meta-link" datetime="2022-03-04">04 marzo, 2024</time>
+                    </li>
+
+
+                  </ul>
+
+                  <p class="card-text">
+                    curso completo de adobe premiere
+                  </p>
+
+                  <a href="#" class="btn card-btn">Leer Mas...</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="images/CANVA.webp" width="600" height="400" loading="lazy"
+                    alt="Activities Book International" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Curso completo de canva</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="meta-item">
+                      <time class="meta-link" datetime="2022-03-04">04 marzo, 2024</time>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Curso completo de canva
+                  </p>
+
+                  <a href="#" class="btn card-btn">Leer Mas...</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="images/Figma.webp" width="600" height="400" loading="lazy"
+                    alt="International activities of the book" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Curso completo de Figma</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="meta-item">
+                      <time class="meta-link" datetime="2022-03-04">04 marzo, 2024</time>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Curso completo de Figma
+                  </p>
+
+                  <a href="#" class="btn card-btn">Leer Mas...</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-color: #E0EBEB;">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logoAvendaño.png" width="300" height="28" alt="booken home">
+          </a>
+
+          <p class="footer-text">
+            Nuestros cursos pregrabados de bootcamps te brindan la oportunidad de aprender a tu propio ritmo y desde la
+            comodidad de tu hogar. Contamos con una amplia variedad de temas y niveles para satisfacer todas tus
+            necesidades.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100078522540042" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100078522540042" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100078522540042" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100078522540042" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Corporate</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Careers</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQs</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Vendors</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Store</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Service</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Grooming</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Positive Dog Training</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Veterinary Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Insurance</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Book Writing</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2024 | Hecho por Avendaño.
+        </p>
+
+        <p class="copyright">Metodos de pagos
+        </p>
+
+        <img src="./assets/images/bcp-removebg-preview.webp" width="1" height="30" loading="lazy" alt="Payment method"
+          class="w-100 pago" ">
+        
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href=" #top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+        </a>
+
+        <a href="https://wa.me/51930134408?text=Me gustaría mas informacion" class="whatsapp " target="_blank"
+          aria-label="back to top" data-back-top-btn><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+
+
+
+        <!-- 
+    - custom js link
+  -->
+        <script src="./assets/js/script.js" defer></script>
+
+        <!-- 
+    - ionicon link
+  -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
